@@ -31,3 +31,68 @@
     padding: 10px;
     border: 1px dashed black;
 }
+
+.caixa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 5px solid purple;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 20px;
+}
+
+.botao {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 30px; 
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+.botao:hover {
+    opacity: 0.8;
+}
+
+.botao-azul {
+    background-color: blue;
+    color: white;
+}
+
+.botao-vermelho {
+    background-color: brown;
+    color: white;
+}
+
+.botao-verde {
+    background-color: green;
+    color: white;
+}
+
+.botao-redondo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.botao-pilula {
+    min-width: 80px;
+    border-radius: 50px;
+}
