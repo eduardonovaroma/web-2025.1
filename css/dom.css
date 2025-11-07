@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    margin: 20px 20px 50px 20px;
+    padding: 20px 50px;
+    height: 300px;
+    gap: 30px;
+}
+
+.box {
+    padding: 20px 50px;
+    width: 300px;
+    height: 100px;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.orange-box {
+    background-color: orange;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    font-family: Arial;
+    padding: 12px 30px; 
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
